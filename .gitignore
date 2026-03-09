@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Playwright / Testing
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Pytest / Reports
+.pytest_cache/
+report/*.html
+report/screenshots/
+report/logs/
+.pytest_cache/
+
+# IDE / System
+.vscode/
+.idea/
+.DS_Store
+
+# Configuration (Optional: Keep template but ignore local secrets if added later)
+# config.json

@@ -1,0 +1,9 @@
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "--html=report/report.html --self-contained-html"
+[tool.pyright]
+extraPaths = ["."]
+include = ["pages", "tests"]
+venvPath = "."
+venv = ".venv"

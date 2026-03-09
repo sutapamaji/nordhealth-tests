@@ -1,0 +1,6 @@
+{
+    "Environment": "staging",
+    "Headless": false,
+    "Timeout": 5000,
+    "Browser": "chromium"
+}
